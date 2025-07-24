@@ -1,6 +1,8 @@
 package application;
 
-import boardgame.Board;
+import ChessConsole.UI;
+//import boardgame.Board;
+import chess.ChessMatch;
 
 /*
  * autor: Otto Samuel
@@ -11,6 +13,8 @@ import boardgame.Board;
 
 public class Program {
     public static void main(String[] args) {
-        Board board = new Board(8, 8);
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
+        
     }
 }
