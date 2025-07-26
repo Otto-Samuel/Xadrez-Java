@@ -9,19 +9,19 @@ public class Position {
         this.column = column;
     }
 
-    public int getRow(){
+    public int getRow() {
         return row;
     }
 
-    public int getColumn(){
+    public int getColumn() {
         return column;
     }
 
-    public void setRow(int row){
+    public void setRow(int row) {
         this.row = row;
     }
 
-    public void setColumn(int column){
+    public void setColumn(int column) {
         this.column = column;
     }
 
@@ -29,7 +29,5 @@ public class Position {
     public String toString() {
         return row + "," + column;
     }
-
-    
 
 }
