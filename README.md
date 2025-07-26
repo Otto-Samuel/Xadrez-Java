@@ -13,5 +13,4 @@ Meanwhie, the compiled output files will be geneatd in the `bin` folder by defau
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## DependencyManagement
-
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
