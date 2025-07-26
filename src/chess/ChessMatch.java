@@ -22,13 +22,13 @@ public class ChessMatch {
         return mat;
     }
 
-    public void placeNewPiece(char column, int row, ChessPiece piece){
+    public void placeNewPiece(char column, int row, ChessPiece piece) {
         board.placePiece(piece, new ChessPosition(column, row).ToPosition());
     }
 
     public void initialSetup() {
-        placeNewPiece('b',6,new Rook(board, Color.WHITE));
-        placeNewPiece('e',8,new King(board, Color.BLACK));
-        placeNewPiece('e',1,new King(board, Color.WHITE));
+        placeNewPiece('b', 6, new Rook(board, Color.WHITE));
+        placeNewPiece('e', 8, new King(board, Color.BLACK));
+        placeNewPiece('e', 1, new King(board, Color.WHITE));
     }
 }
