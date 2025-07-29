@@ -66,6 +66,12 @@ public class ChessMatch {
         }
     }
 
+    public boolean[][] possibleMoves(ChessPosition sourcePosition) {
+		Position position = sourcePosition.ToPosition();
+		validateSourcePosition(position);
+		return board.piece(position).possibleMoves();
+	}
+
     private void validateSourcePosition(Position position) {
         if (!board.thereIsAPiece(position)) {
             throw new ChessException("There is no piece on source position");
