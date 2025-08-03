@@ -4,5 +4,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "discord.enabled": true
+    "discord.enabled": true,
+    "editor.fontLigatures": true
 }
